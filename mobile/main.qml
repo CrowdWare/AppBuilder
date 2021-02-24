@@ -32,7 +32,7 @@ ApplicationWindow
     width: 360
     height: 520
     visible: true
-    title: "UBUCON"
+    title: "AppBrowser"
     
     Material.theme: Material.System
     Material.accent: "#28a9e0"
@@ -86,7 +86,7 @@ ApplicationWindow
             Label 
             {
                 id: titleLabel
-                text: listView.currentItem ? listView.currentItem.text : "UBUCON"
+                text: listView.currentItem ? listView.currentItem.text : "AppBrowser"
                 font.pixelSize: 20
                 elide: Label.ElideRight
                 horizontalAlignment: Qt.AlignHCenter
@@ -208,7 +208,7 @@ ApplicationWindow
         id: aboutDialog
         modal: true
         focus: true
-        title: "Über UBUCON " + backend.version
+        title: "Über AppBrowser " + backend.version
         x: (window.width - width) / 2
         y: window.height / 6
         width: Math.min(window.width, window.height) / 3 * 2
@@ -222,7 +222,7 @@ ApplicationWindow
             Label 
             {
                 width: aboutDialog.availableWidth
-                text: "UBUCON VERBINDET UNS"
+                text: "Der AppBrowser bringt uns das Web 3.0"
                 wrapMode: Label.Wrap
                 font.pixelSize: 15
             }
@@ -230,7 +230,7 @@ ApplicationWindow
             Label 
             {
                 width: aboutDialog.availableWidth
-                text: "UBUCON ist kostenlos, werbefrei und ohne Zensur. Du kannst UBUCON nutzen, um dich mit deinen Freunden zu verbinden und um neue Freunde und Gleichgesinnte kennen zu lernen."
+                text: "Der AppBrowser ist kostenlos und werbefrei. Mit dem AppBrowser kannst du Apps aus dem Web laden und lokal ausführen. HTML war gestern..."
                 wrapMode: Label.Wrap
                 font.pixelSize: 15
             }

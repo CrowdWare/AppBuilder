@@ -39,6 +39,6 @@ Page
 		width: parent.width
 		font.pointSize: 20
 		wrapMode: Text.WordWrap;
-		text: backend.menuModel.count() > 1 ? "Willkommen bei UBUCON" : "Willkommen bei UBUCON<br><br>Zu allererst solltest Du dir ein Plugin installieren, um UBUCON nutzen zu können."
+		text: backend.menuModel.count() > 1 ? "Willkommen beim AppBrowser" : "Willkommen beim AppBrowser<br><br>Zu allererst solltest Du dir ein Plugin installieren, um den AppBrowser sinnvoll nutzen zu können."
 	}
 }

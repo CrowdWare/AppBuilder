@@ -75,7 +75,7 @@ int main(int argc, char *argv[])
     qmlRegisterType<BackEnd>("at.crowdware.backend", 1, 0, "BackEnd");
     qmlRegisterType<Plugin>("at.crowdware.backend", 1, 0, "Plugin");
     QQuickStyle::setStyle("Material");
-    QIcon::setThemeName("AppBrowser");
+    QIcon::setThemeName("appbrowser");
     
     if (backend.checkPermission())
     {

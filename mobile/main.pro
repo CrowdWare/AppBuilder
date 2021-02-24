@@ -20,19 +20,19 @@ HEADERS += \
 RESOURCES += \
     main.qml \
     Home.qml \
-    icons/ubucon/index.theme \
-    icons/ubucon/20x20/back.png \
-    icons/ubucon/20x20/drawer.png \
-    icons/ubucon/20x20/menu.png \
-    icons/ubucon/20x20@2/back.png \
-    icons/ubucon/20x20@2/drawer.png \
-    icons/ubucon/20x20@2/menu.png \
-    icons/ubucon/20x20@3/back.png \
-    icons/ubucon/20x20@3/drawer.png \
-    icons/ubucon/20x20@3/menu.png \
-    icons/ubucon/20x20@4/back.png \
-    icons/ubucon/20x20@4/drawer.png \
-    icons/ubucon/20x20@4/menu.png \
+    icons/appbrowser/index.theme \
+    icons/appbrowser/20x20/back.png \
+    icons/appbrowser/20x20/drawer.png \
+    icons/appbrowser/20x20/menu.png \
+    icons/appbrowser/20x20@2/back.png \
+    icons/appbrowser/20x20@2/drawer.png \
+    icons/appbrowser/20x20@2/menu.png \
+    icons/appbrowser/20x20@3/back.png \
+    icons/appbrowser/20x20@3/drawer.png \
+    icons/appbrowser/20x20@3/menu.png \
+    icons/appbrowser/20x20@4/back.png \
+    icons/appbrowser/20x20@4/drawer.png \
+    icons/appbrowser/20x20@4/menu.png \
     images/logo.png
 
 target.path = $$PWD/quickcontrols2/ubucon

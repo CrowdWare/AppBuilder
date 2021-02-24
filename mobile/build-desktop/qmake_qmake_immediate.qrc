@@ -1,0 +1,20 @@
+<!DOCTYPE RCC><RCC version="1.0">
+<qresource prefix="/">
+<file alias="main.qml">/Users/art/SourceCode/AppBuilder/mobile/main.qml</file>
+<file alias="Home.qml">/Users/art/SourceCode/AppBuilder/mobile/Home.qml</file>
+<file alias="icons/appbrowser/index.theme">/Users/art/SourceCode/AppBuilder/mobile/icons/appbrowser/index.theme</file>
+<file alias="icons/appbrowser/20x20/back.png">/Users/art/SourceCode/AppBuilder/mobile/icons/appbrowser/20x20/back.png</file>
+<file alias="icons/appbrowser/20x20/drawer.png">/Users/art/SourceCode/AppBuilder/mobile/icons/appbrowser/20x20/drawer.png</file>
+<file alias="icons/appbrowser/20x20/menu.png">/Users/art/SourceCode/AppBuilder/mobile/icons/appbrowser/20x20/menu.png</file>
+<file alias="icons/appbrowser/20x20@2/back.png">/Users/art/SourceCode/AppBuilder/mobile/icons/appbrowser/20x20@2/back.png</file>
+<file alias="icons/appbrowser/20x20@2/drawer.png">/Users/art/SourceCode/AppBuilder/mobile/icons/appbrowser/20x20@2/drawer.png</file>
+<file alias="icons/appbrowser/20x20@2/menu.png">/Users/art/SourceCode/AppBuilder/mobile/icons/appbrowser/20x20@2/menu.png</file>
+<file alias="icons/appbrowser/20x20@3/back.png">/Users/art/SourceCode/AppBuilder/mobile/icons/appbrowser/20x20@3/back.png</file>
+<file alias="icons/appbrowser/20x20@3/drawer.png">/Users/art/SourceCode/AppBuilder/mobile/icons/appbrowser/20x20@3/drawer.png</file>
+<file alias="icons/appbrowser/20x20@3/menu.png">/Users/art/SourceCode/AppBuilder/mobile/icons/appbrowser/20x20@3/menu.png</file>
+<file alias="icons/appbrowser/20x20@4/back.png">/Users/art/SourceCode/AppBuilder/mobile/icons/appbrowser/20x20@4/back.png</file>
+<file alias="icons/appbrowser/20x20@4/drawer.png">/Users/art/SourceCode/AppBuilder/mobile/icons/appbrowser/20x20@4/drawer.png</file>
+<file alias="icons/appbrowser/20x20@4/menu.png">/Users/art/SourceCode/AppBuilder/mobile/icons/appbrowser/20x20@4/menu.png</file>
+<file alias="images/logo.png">/Users/art/SourceCode/AppBuilder/mobile/images/logo.png</file>
+</qresource>
+</RCC>

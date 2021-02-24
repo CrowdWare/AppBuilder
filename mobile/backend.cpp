@@ -72,9 +72,9 @@ bool BackEnd::getWritepermission()
 bool BackEnd::checkPermission()
 {
     m_writepermission = false;
-    QString msg_text = "Willkommen, bitte öffne die Systemeinstellungen und schalte der Speicherzugriff für UBUCON frei.<br><br>Du findest diese Einstellungen unter: Einstellungen -> Apps -> Apps -> UBUCON -> Berechtigungen -> Speicher";
+    QString msg_text = "Willkommen, bitte öffne die Systemeinstellungen und schalte der Speicherzugriff für AppBrowser frei.<br><br>Du findest diese Einstellungen unter: Einstellungen -> Apps -> Apps -> AppBrowser -> Berechtigungen -> Speicher";
             
-    QString path = QStandardPaths::writableLocation(QStandardPaths::GenericDataLocation) + "/crowdware/ubucon/plugins";
+    QString path = QStandardPaths::writableLocation(QStandardPaths::GenericDataLocation) + "/crowdware/appbrowser/plugins";
     m_pluginDir = "file://" + path;
     QDir dir(path);
     if (!dir.exists())
@@ -132,7 +132,7 @@ void BackEnd::loadMenu()
 void BackEnd::loadPlugins()
 {
     QString path = QStandardPaths::writableLocation(QStandardPaths::GenericDataLocation) + "/crowdware";
-    QDir dir(path + "/ubucon/plugins");
+    QDir dir(path + "/appbrowser/plugins");
     dir.setFilter(QDir::Dirs | QDir::NoDotAndDotDot);
     if (dir.exists())
     {
@@ -143,7 +143,7 @@ void BackEnd::loadPlugins()
             QQmlEngine engine;
             engine.rootContext()->setContextProperty("backend", this);
             QQmlComponent component(&engine);
-            QString fileName = path + "/ubucon/plugins/" + fileInfo.fileName() + "/plugin.qml";
+            QString fileName = path + "/appbrowser/plugins/" + fileInfo.fileName() + "/plugin.qml";
             QFile file(fileName);
             if (file.exists())
             {
@@ -163,7 +163,7 @@ int BackEnd::saveChain()
     if (!dir.exists())
         dir.mkpath(path);
 
-    path.append("/ubucon.db");
+    path.append("/appbrowser.db");
     QFile file(path);
     if(!file.open(QIODevice::WriteOnly))
     {
@@ -188,7 +188,7 @@ int BackEnd::loadChain()
     quint16 version;
 
     QString path = QStandardPaths::writableLocation(QStandardPaths::GenericDataLocation) + "/crowdware";
-    QFile file(path.append("/ubucon.db"));
+    QFile file(path.append("/appbrowser.db"));
     if(!file.exists())
     {
         // create a new account on the first time 
